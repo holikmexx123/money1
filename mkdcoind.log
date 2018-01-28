@@ -1,0 +1,112 @@
+2018-Jan-28 14:43:36.985414 INFO    [daemon] mkdcoin v1.0.0.1 (9a8fc35-dirty)
+2018-Jan-28 14:43:36.985658 INFO    [daemon] Module folder: ./mkdcoind
+2018-Jan-28 14:43:36.987879 INFO    [daemon] Initializing p2p server...
+2018-Jan-28 14:43:36.988083 INFO    [node_server] Generated new peer ID: 18362900300027382780
+2018-Jan-28 14:43:36.988199 INFO    [node_server] Network: 3e7a85ad-9db2-54a5-917a-505e1e45f111
+2018-Jan-28 14:43:36.988309 INFO    [node_server] Binding on 0.0.0.0:32347
+2018-Jan-28 14:43:36.988418 INFO    [node_server] Net service binded on 0.0.0.0:32347
+2018-Jan-28 14:43:36.988501 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Jan-28 14:43:40.993248 INFO    [node_server] No IGD was found.
+2018-Jan-28 14:43:40.993479 INFO    [daemon] P2p server initialized OK
+2018-Jan-28 14:43:40.993601 INFO    [daemon] Initializing core...
+2018-Jan-28 14:43:40.993833 INFO    [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Jan-28 14:43:41.018755 INFO    [Blockchain] Blockchain initialized. last block: 0, d2034.h09.m43.s41 time ago, current difficulty: 1
+2018-Jan-28 14:43:41.018933 INFO    [daemon] Core initialized OK
+2018-Jan-28 14:43:41.019083 INFO    [daemon] Starting core rpc server on address 127.0.0.1:32348
+2018-Jan-28 14:43:41.019213 INFO    [daemon] Core rpc server started ok
+2018-Jan-28 14:43:41.019304 INFO    [daemon] Starting p2p net loop...
+2018-Jan-28 14:43:41.019381 INFO    [node_server] Starting node_server
+2018-Jan-28 14:43:41.022560 INFO    [protocol] 
+2018-Jan-28 14:43:41.022560 INFO    [protocol] **********************************************************************
+2018-Jan-28 14:43:41.022560 INFO    [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Jan-28 14:43:41.022560 INFO    [protocol] 
+2018-Jan-28 14:43:41.022560 INFO    [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Jan-28 14:43:41.022560 INFO    [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Jan-28 14:43:41.022560 INFO    [protocol] 
+2018-Jan-28 14:43:41.022560 INFO    [protocol] Use "help" command to see the list of available commands.
+2018-Jan-28 14:43:41.022560 INFO    [protocol] **********************************************************************
+2018-Jan-28 14:43:41.023391 INFO    [core] 
+2018-Jan-28 14:43:41.023391 INFO    [core] **********************************************************************
+2018-Jan-28 14:43:41.023391 INFO    [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Jan-28 14:43:41.023391 INFO    [core] 
+2018-Jan-28 14:43:41.023391 INFO    [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Jan-28 14:43:41.023391 INFO    [core] 
+2018-Jan-28 14:43:41.023391 INFO    [core] Use "help" command to see the list of available commands.
+2018-Jan-28 14:43:41.023391 INFO    [core] 
+2018-Jan-28 14:43:41.023391 INFO    [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Jan-28 14:43:41.023391 INFO    [core] **********************************************************************
+2018-Jan-28 14:45:15.247429 INFO    [miner] Mining has started with 1 threads, good luck!
+2018-Jan-28 14:45:15.248274 INFO    [miner] Miner thread was started [0]
+2018-Jan-28 14:45:15.274215 INFO    [miner] Found block for difficulty: 1
+2018-Jan-28 14:45:15.326898 INFO    [miner] Found block for difficulty: 1
+2018-Jan-28 14:45:17.690345 INFO    [miner] Found block for difficulty: 240
+2018-Jan-28 14:47:34.719642 INFO    [miner] Miner thread stopped [0]
+2018-Jan-28 14:47:34.719843 INFO    [miner] Mining has been stopped, 0 finished
+2018-Jan-28 14:47:38.159658 INFO    [node_server] Stop signal sent
+2018-Jan-28 14:47:38.159879 INFO    [node_server] Stopping NodeServer and it's0 connections...
+2018-Jan-28 14:47:38.160082 INFO    [node_server] NodeServer loop stopped
+2018-Jan-28 14:47:38.160201 INFO    [daemon] p2p net loop stopped
+2018-Jan-28 14:47:38.160300 INFO    [daemon] Stopping core rpc server...
+2018-Jan-28 14:47:38.160427 INFO    [daemon] Deinitializing core...
+2018-Jan-28 14:47:38.160508 INFO    [miner] Mining has been stopped, 0 finished
+2018-Jan-28 14:47:38.160649 INFO    [Blockchain] Saving blockchain...
+2018-Jan-28 14:47:38.160758 INFO    [BlockCacheSerializer] - saving block index...
+2018-Jan-28 14:47:38.160846 INFO    [BlockCacheSerializer] - saving transaction map...
+2018-Jan-28 14:47:38.160922 INFO    [BlockCacheSerializer] - saving spent keys...
+2018-Jan-28 14:47:38.160994 INFO    [BlockCacheSerializer] - saving outputs...
+2018-Jan-28 14:47:38.161070 INFO    [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Jan-28 14:47:38.161146 INFO    [BlockCacheSerializer] Serialization time: 0ms
+2018-Jan-28 14:47:38.161231 INFO    [daemon] Deinitializing p2p...
+2018-Jan-28 14:47:38.161390 INFO    [miner] Mining has been stopped, 0 finished
+2018-Jan-28 14:47:38.161571 INFO    [daemon] Node stopped.
+2018-Jan-28 15:07:15.352534 INFO    [daemon] mkdcoin v1.0.0.1 (9a8fc35-dirty)
+2018-Jan-28 15:07:15.353651 INFO    [daemon] Module folder: ./mkdcoind
+2018-Jan-28 15:07:15.354504 INFO    [daemon] Initializing p2p server...
+2018-Jan-28 15:07:15.355262 INFO    [node_server] Network: 3e7a85ad-9db2-54a5-917a-505e1e45f111
+2018-Jan-28 15:07:15.355387 INFO    [node_server] Binding on 0.0.0.0:32347
+2018-Jan-28 15:07:15.355520 INFO    [node_server] Net service binded on 0.0.0.0:32347
+2018-Jan-28 15:07:15.355605 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Jan-28 15:07:19.360319 INFO    [node_server] No IGD was found.
+2018-Jan-28 15:07:19.360560 INFO    [daemon] P2p server initialized OK
+2018-Jan-28 15:07:19.360680 INFO    [daemon] Initializing core...
+2018-Jan-28 15:07:19.361721 INFO    [Blockchain] Loading blockchain...
+2018-Jan-28 15:07:19.362815 INFO    [BlockCacheSerializer] - loading block index...
+2018-Jan-28 15:07:19.362938 INFO    [BlockCacheSerializer] - loading transaction map...
+2018-Jan-28 15:07:19.363033 INFO    [BlockCacheSerializer] - loading spent keys...
+2018-Jan-28 15:07:19.363110 INFO    [BlockCacheSerializer] - loading outputs...
+2018-Jan-28 15:07:19.363200 INFO    [BlockCacheSerializer] - loading multi-signature outputs...
+2018-Jan-28 15:07:19.363282 INFO    [BlockCacheSerializer] Serialization time: 0ms
+2018-Jan-28 15:07:19.363420 INFO    [Blockchain] Blockchain initialized. last block: 3, d0.h00.m22.s02 time ago, current difficulty: 28920
+2018-Jan-28 15:07:19.363509 INFO    [daemon] Core initialized OK
+2018-Jan-28 15:07:19.363645 INFO    [daemon] Starting core rpc server on address 127.0.0.1:32348
+2018-Jan-28 15:07:19.363775 INFO    [daemon] Core rpc server started ok
+2018-Jan-28 15:07:19.363894 INFO    [daemon] Starting p2p net loop...
+2018-Jan-28 15:07:19.363975 INFO    [node_server] Starting node_server
+2018-Jan-28 15:07:30.508360 INFO    [node_server] Stop signal sent
+2018-Jan-28 15:07:30.508483 INFO    [node_server] Stopping NodeServer and it's0 connections...
+2018-Jan-28 15:08:13.522104 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jan-28 15:08:13.522206 INFO    [core] 
+2018-Jan-28 15:08:13.522206 INFO    [core] **********************************************************************
+2018-Jan-28 15:08:13.522206 INFO    [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Jan-28 15:08:13.522206 INFO    [core] 
+2018-Jan-28 15:08:13.522206 INFO    [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Jan-28 15:08:13.522206 INFO    [core] 
+2018-Jan-28 15:08:13.522206 INFO    [core] Use "help" command to see the list of available commands.
+2018-Jan-28 15:08:13.522206 INFO    [core] 
+2018-Jan-28 15:08:13.522206 INFO    [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Jan-28 15:08:13.522206 INFO    [core] **********************************************************************
+2018-Jan-28 15:08:14.522713 INFO    [node_server] NodeServer loop stopped
+2018-Jan-28 15:08:14.522811 INFO    [daemon] p2p net loop stopped
+2018-Jan-28 15:08:14.522850 INFO    [daemon] Stopping core rpc server...
+2018-Jan-28 15:08:14.522930 INFO    [daemon] Deinitializing core...
+2018-Jan-28 15:08:14.522968 INFO    [miner] Mining has been stopped, 0 finished
+2018-Jan-28 15:08:14.523112 INFO    [Blockchain] Saving blockchain...
+2018-Jan-28 15:08:14.523190 INFO    [BlockCacheSerializer] - saving block index...
+2018-Jan-28 15:08:14.523236 INFO    [BlockCacheSerializer] - saving transaction map...
+2018-Jan-28 15:08:14.523275 INFO    [BlockCacheSerializer] - saving spent keys...
+2018-Jan-28 15:08:14.523309 INFO    [BlockCacheSerializer] - saving outputs...
+2018-Jan-28 15:08:14.523346 INFO    [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Jan-28 15:08:14.523380 INFO    [BlockCacheSerializer] Serialization time: 0ms
+2018-Jan-28 15:08:14.523439 INFO    [daemon] Deinitializing p2p...
+2018-Jan-28 15:08:14.523627 INFO    [miner] Mining has been stopped, 0 finished
+2018-Jan-28 15:08:14.523759 INFO    [daemon] Node stopped.

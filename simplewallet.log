@@ -1,0 +1,86 @@
+2018-Jan-28 14:44:51.198018 INFO    [simplewallet] mkdcoin wallet v1.0.0.1 (9a8fc35-dirty)
+2018-Jan-28 14:45:03.302113 INFO    [BlockchainSynchronizer] Consumer added, consumer 0x01a85d50, count 1
+2018-Jan-28 14:45:03.302854 INFO    [BlockchainSynchronizer] Starting...
+2018-Jan-28 14:45:03.304109 INFO    [BlockchainSynchronizer] Stopping...
+2018-Jan-28 14:45:03.304971 DEBUG   [BlockchainSynchronizer] Working thread started
+2018-Jan-28 14:45:03.305964 DEBUG   [BlockchainSynchronizer] Working thread stopped
+2018-Jan-28 14:45:03.306962 INFO    [BlockchainSynchronizer] Stopped
+2018-Jan-28 14:45:03.307711 INFO    [BlockchainSynchronizer] Saving...
+2018-Jan-28 14:45:03.308517 INFO    [BlockchainSynchronizer] Saved
+2018-Jan-28 14:45:03.335745 INFO    [BlockchainSynchronizer] Starting...
+2018-Jan-28 14:45:03.336796 INFO    [simplewallet] Generated new wallet: dkmwL5tcQgHSLMkXLfCqHK2TUYKN4hKLi8V5YdbLp4P9FcdFGsfwW5VaZ4Vngx6CRtPcYyEVpCEcgJcQWcURFYtb7Kggkxkvyg
+2018-Jan-28 14:45:03.336796 INFO    [simplewallet] view key: f8603b5c1dbe6846e0186f8ba6605ca4af78488e13741b51d47cf85ad089a90f
+2018-Jan-28 14:45:03.338244 INFO    [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2018-Jan-28 14:45:03.341360 INFO    [simplewallet] **********************************************************************
+2018-Jan-28 14:45:03.341943 DEBUG   [BlockchainSynchronizer] Working thread started
+2018-Jan-28 14:45:03.342757 INFO    [BlockchainSynchronizer] Removing outdated pool transactions...
+2018-Jan-28 14:45:03.343645 DEBUG   [BlockchainSynchronizer] Pool union size 0, intersection size 0
+2018-Jan-28 14:45:03.344671 DEBUG   [BlockchainSynchronizer] Outdated pool transactions received, 0:{}
+2018-Jan-28 14:45:03.345529 INFO    [BlockchainSynchronizer] Outdated pool transactions processed
+2018-Jan-28 14:45:03.346321 DEBUG   [BlockchainSynchronizer] Starting blockchain synchronization...
+2018-Jan-28 14:45:03.347125 DEBUG   [BlockchainSynchronizer] Shortest chain size 1
+2018-Jan-28 14:45:03.347760 DEBUG   [BlockchainSynchronizer] Common history: start block index 0, sparse chain size 1
+2018-Jan-28 14:45:03.348909 DEBUG   [BlockchainSynchronizer] Blocks received, start index 0, count 1
+2018-Jan-28 14:45:03.349744 DEBUG   [BlockchainSynchronizer] Process blocks, start index 0, count 1
+2018-Jan-28 14:45:03.350555 DEBUG   [BlockchainSynchronizer] No new blocks received. Consumers not updated
+2018-Jan-28 14:45:03.351429 DEBUG   [BlockchainSynchronizer] Last block hash 706c79eea00f1903b21e7a95bdd1cc19c22306a78c42515a67ea87aa46e91a1b
+2018-Jan-28 14:45:03.352679 DEBUG   [BlockchainSynchronizer] Starting pool synchronization...
+2018-Jan-28 14:45:03.353423 DEBUG   [BlockchainSynchronizer] Pool union size 0, intersection size 0
+2018-Jan-28 14:45:03.354324 DEBUG   [BlockchainSynchronizer] Transaction pool changes received, added 0, deleted 0
+2018-Jan-28 14:45:03.355293 DEBUG   [BlockchainSynchronizer] Starting to process pool transactions, added 0:{}, deleted 0:{}
+2018-Jan-28 14:45:03.355877 DEBUG   [BlockchainSynchronizer] Pool changes processed
+2018-Jan-28 14:45:03.356320 DEBUG   [BlockchainSynchronizer] Idle
+2018-Jan-28 14:45:15.247685 INFO    [simplewallet] Mining started in daemon
+2018-Jan-28 14:45:18.305477 DEBUG   [BlockchainSynchronizer] Event: localBlockchainUpdated 3
+2018-Jan-28 14:45:18.306106 DEBUG   [BlockchainSynchronizer] Resume
+2018-Jan-28 14:45:18.306235 DEBUG   [BlockchainSynchronizer] Starting blockchain synchronization...
+2018-Jan-28 14:45:18.306483 DEBUG   [BlockchainSynchronizer] Shortest chain size 1
+2018-Jan-28 14:45:18.306628 DEBUG   [BlockchainSynchronizer] Common history: start block index 0, sparse chain size 1
+2018-Jan-28 14:45:18.306823 DEBUG   [BlockchainSynchronizer] Event: lastKnownBlockHeightUpdated 3
+2018-Jan-28 14:45:18.343945 DEBUG   [BlockchainSynchronizer] Blocks received, start index 0, count 4
+2018-Jan-28 14:45:18.344412 DEBUG   [BlockchainSynchronizer] Process blocks, start index 0, count 4
+2018-Jan-28 14:45:18.344845 DEBUG   [BlockchainSynchronizer] Adding blocks to consumer, consumer 0x01a85d50, start index 1, count 3
+2018-Jan-28 14:45:18.366670 INFO    [simplewallet] Height 1, transaction 95195e68347933283369306c0aad1d8e7fdf1a64a6126536906c735f2e9da054, received 38.146827137097
+2018-Jan-28 14:45:18.367526 INFO    [simplewallet] Height 2, transaction 9971597a727d31d5a40b616fd0b15a7c4e1a89f50d905c7cec884c3aa79f3952, received 38.146681618500
+2018-Jan-28 14:45:18.368271 INFO    [simplewallet] Height 3, transaction a087097455bd48157037cc169b3ae27f63f06c18bd142e7f1b2a9f1e201293c6, received 38.146536100458
+2018-Jan-28 14:45:18.368984 DEBUG   [BlockchainSynchronizer] Blocks added to consumers
+2018-Jan-28 14:45:18.369304 DEBUG   [BlockchainSynchronizer] Last block hash df426ecb3ca5c5714b66a160ddda8e9d2276d67c700b92d3158a1705ac329d5b
+2018-Jan-28 14:45:18.369814 DEBUG   [BlockchainSynchronizer] Starting blockchain synchronization...
+2018-Jan-28 14:45:18.370192 DEBUG   [BlockchainSynchronizer] Shortest chain size 4
+2018-Jan-28 14:45:18.370511 DEBUG   [BlockchainSynchronizer] Common history: start block index 0, sparse chain size 4
+2018-Jan-28 14:45:18.371118 DEBUG   [BlockchainSynchronizer] Blocks received, start index 3, count 1
+2018-Jan-28 14:45:18.371492 DEBUG   [BlockchainSynchronizer] Process blocks, start index 3, count 1
+2018-Jan-28 14:45:18.371910 DEBUG   [BlockchainSynchronizer] No new blocks received. Consumers not updated
+2018-Jan-28 14:45:18.372326 DEBUG   [BlockchainSynchronizer] Last block hash df426ecb3ca5c5714b66a160ddda8e9d2276d67c700b92d3158a1705ac329d5b
+2018-Jan-28 14:45:18.372832 DEBUG   [BlockchainSynchronizer] Starting pool synchronization...
+2018-Jan-28 14:45:18.373179 DEBUG   [BlockchainSynchronizer] Pool union size 0, intersection size 0
+2018-Jan-28 14:45:18.373661 DEBUG   [BlockchainSynchronizer] Transaction pool changes received, added 0, deleted 0
+2018-Jan-28 14:45:18.374072 DEBUG   [BlockchainSynchronizer] Starting to process pool transactions, added 0:{}, deleted 0:{}
+2018-Jan-28 14:45:18.379972 DEBUG   [BlockchainSynchronizer] Pool changes processed
+2018-Jan-28 14:45:18.380297 DEBUG   [BlockchainSynchronizer] Idle
+2018-Jan-28 14:46:00.227245 INFO    [simplewallet] available balance: 0.000000000000, locked amount: 114.440044856055
+2018-Jan-28 14:46:27.375865 INFO    [BlockchainSynchronizer] Stopping...
+2018-Jan-28 14:46:27.377019 DEBUG   [BlockchainSynchronizer] Resume
+2018-Jan-28 14:46:27.377149 DEBUG   [BlockchainSynchronizer] Working thread stopped
+2018-Jan-28 14:46:27.377332 INFO    [BlockchainSynchronizer] Stopped
+2018-Jan-28 14:46:27.378092 INFO    [BlockchainSynchronizer] Saving...
+2018-Jan-28 14:46:27.378865 INFO    [BlockchainSynchronizer] Saved
+2018-Jan-28 14:46:27.446460 INFO    [BlockchainSynchronizer] Starting...
+2018-Jan-28 14:46:27.447440 INFO    [BlockchainSynchronizer] Stopping...
+2018-Jan-28 14:46:27.451833 DEBUG   [BlockchainSynchronizer] Working thread started
+2018-Jan-28 14:46:27.452838 DEBUG   [BlockchainSynchronizer] Working thread stopped
+2018-Jan-28 14:46:27.453827 INFO    [BlockchainSynchronizer] Stopped
+2018-Jan-28 14:46:27.453964 INFO    [BlockchainSynchronizer] Consumer removed, consumer 0x01a85d50, count 0
+2018-Jan-28 14:46:27.454155 INFO    [simplewallet] Wallet closed
+2018-Jan-28 14:46:27.454281 INFO    [BlockchainSynchronizer] Stopping...
+2018-Jan-28 14:46:27.454399 INFO    [BlockchainSynchronizer] Stopped
+2018-Jan-28 14:46:27.454511 INFO    [BlockchainSynchronizer] Stopping...
+2018-Jan-28 14:46:27.454628 INFO    [BlockchainSynchronizer] Stopped
+2018-Jan-28 14:46:27.454739 INFO    [BlockchainSynchronizer] Stopping...
+2018-Jan-28 14:46:27.454855 INFO    [BlockchainSynchronizer] Stopped
